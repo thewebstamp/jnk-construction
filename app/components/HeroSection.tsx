@@ -265,7 +265,7 @@ export default function HeroSection() {
                                         }}
                                     >
                                         <Image
-                                            src="/images/remodeling1.jpg"
+                                            src="/images/Remodeling1.jpg"
                                             alt="Project Work"
                                             fill
                                             className="object-cover"
