@@ -56,7 +56,7 @@ export default function HeroSection() {
             {/* Content */}
             <div className="relative z-10 w-full px-4 sm:px-6 md:px-8 py-8 md:py-12">
                 <div className="container-custom">
-                    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center lg:mt-10">
+                    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                         {/* Left Content - Centered for mobile */}
                         <div className="space-y-2 md:space-y-5 text-center lg:text-left">
                             {/* Premium Tagline */}
