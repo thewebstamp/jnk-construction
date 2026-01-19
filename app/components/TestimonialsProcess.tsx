@@ -181,14 +181,10 @@ export default function TestimonialsProcess() {
 
                                                 {/* Client Info */}
                                                 <div className="flex items-center gap-4 pt-6 border-t border-blue-400/30">
-                                                    <div className="relative w-14 h-14 rounded-full overflow-hidden ring-2 ring-white ring-offset-2 ring-offset-blue-600">
-                                                        <Image
-                                                            src={testimonial.image}
-                                                            alt={testimonial.name}
-                                                            fill
-                                                            className="object-cover"
-                                                            sizes="56px"
-                                                        />
+                                                    <div className={`relative w-14 h-14 rounded-full overflow-hidden ring-2 ring-white ring-offset-2 ring-offset-blue-600 bg-gradient-to-br ${testimonial.color}`}>
+                                                        <span className="absolute inset-0 flex items-center justify-center text-white font-bold text-xl">
+                                                            {testimonial.name.charAt(0)}
+                                                        </span>
                                                     </div>
                                                     <div>
                                                         <div className="font-semibold text-white">{testimonial.name}</div>
