@@ -228,7 +228,7 @@ export default function HeroSection() {
                                     initial={{ scale: 0, rotate: -10 }}
                                     animate={{ scale: 1, rotate: 0 }}
                                     transition={{ delay: 1.2, type: "spring" }}
-                                    className="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24"
+                                    className="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-26 h-26 sm:w-30 sm:h-30 md:w-34 md:h-34"
                                 >
                                     <div
                                         className="relative w-full h-full overflow-hidden border-2 border-blue-700/50 shadow-lg md:shadow-xl"
@@ -256,7 +256,7 @@ export default function HeroSection() {
                                     initial={{ y: 20, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     transition={{ delay: 1.4 }}
-                                    className="absolute bottom-4 right-10 sm:bottom-6 sm:right-16 md:bottom-8 md:right-22 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 sm:block"
+                                    className="absolute bottom-4 right-10 sm:bottom-6 sm:right-16 md:bottom-8 md:right-22 w-22 h-22 sm:w-26 sm:h-26 md:w-30 md:h-30 sm:block"
                                 >
                                     <div
                                         className="relative w-full h-full overflow-hidden border border-blue-600/30 shadow-md md:shadow-lg"

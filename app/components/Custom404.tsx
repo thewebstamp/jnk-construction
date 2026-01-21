@@ -2,7 +2,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Home, Construction, ArrowRight, Hammer, Wrench, Building } from 'lucide-react';
+import { Home, ArrowRight, Hammer, Wrench, Building } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Custom404() {
